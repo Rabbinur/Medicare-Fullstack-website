@@ -50,7 +50,7 @@ const DoctorsCard = ({ item, index }) => {
             </p>
           </div>
           <Link
-            to={`doctors/${id}`}
+            to={`/doctor/${id}`}
             className="w-[44px] h-[44px] rounded-full border border-solid
              border-[#181a1e] flex items-center justify-center group hover:bg-primaryColor hover:border-none"
           >
